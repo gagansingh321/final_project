@@ -1,0 +1,254 @@
+/* Basic styles for the body and common elements */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1em 2em;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .search input {
+    padding: 0.5em;
+    border: none;
+    border-radius: 3px;
+}
+
+/* Hero section styling */
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 2em;
+    border-radius: 5px;
+}
+
+/* About section styling */
+.about {
+    display: flex;
+    padding: 2em;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.about-content {
+    flex: 2;
+    padding-left: 2em;
+}
+
+.about-content h2 {
+    margin-top: 0;
+}
+
+/* Services section styling */
+.services {
+    background-color: #f4f4f4;
+    padding: 2em;
+    text-align: center;
+}
+
+.services h2 {
+    margin-top: 0;
+}
+
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-cards .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1em;
+    padding: 1em;
+    width: 30%;
+    text-align: left;
+}
+
+.service-cards .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.service-cards .card h3 {
+    margin-top: 0.5em;
+}
+
+.service-cards .card p {
+    margin: 0.5em 0;
+}
+
+.service-cards .card button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Vision section styling */
+.vision {
+    background: url('vision.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 4em 2em;
+}
+
+.vision h2 {
+    margin-top: 0;
+}
+
+/* Team section styling */
+.team {
+    padding: 2em;
+    text-align: center;
+}
+
+.team h2 {
+    margin-top: 0;
+}
+
+.team-member {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0;
+}
+
+.team-member img {
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.team-info {
+    flex: 2;
+    padding-left: 2em;
+    text-align: left;
+}
+
+.team-info h3 {
+    margin-top: 0;
+}
+
+/* Contact section styling */
+.contact {
+    background-color: #f4f4f4;
+    padding: 2em;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-top: 0;
+}
+
+.contact-form {
+    width: 45%;
+    display: inline-block;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin: 1em 0 0.5em;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.contact-info {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.contact-info h3 {
+    margin: 1em 0 0.5em;
+}
+
+.contact-info table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.contact-info table, 
+.contact-info table th, 
+.contact-info table td {
+    border: 1px solid #ddd;
+}
+
+.contact-info table th, 
+.contact-info table td {
+    padding: 0.5em;
+    text-align: left;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 2em;
+}
